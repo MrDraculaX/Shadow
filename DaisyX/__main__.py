@@ -64,18 +64,18 @@ from DaisyX.modules.helper_funcs.chat_status import is_user_admin
 from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
-STICKER = "CAACAgUAAxkBAAIdl2DdarQZ9jO_Rr_JpGsKgAYOuZiBAAIiAwAC7r9gVq1dAAFYjq9xPyAE"
+STICKER = "CAADAgADXi4AAp7OCwABfDTdF9LM34cC"
 
 PM_START_TEXT = """
-Hello there👋, My name is Shadow🤖
+Hello there👋, My name is 𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮 🦇
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot🤖 with very powerful🦾 modules & I can help you in managing your group👨‍💻
+I am an Powerfull Group Managing Bot🤖 With very Cool modules & I can help you in managing your group👨‍💻
 
 You can find my list of available commands by clicking following buttons
 
 ✪ Make sure you read *INFO* Section Below ✪ 
 
-© 2020-2021 @DeshadeethThisarana
+© 2018-2021 @LordVladtheImpalerTransylvania
 """
 
 buttons = [
@@ -83,14 +83,14 @@ buttons = [
         InlineKeyboardButton(text="🚀 INFO 🚀",callback_data="aboutmanu_"),
         InlineKeyboardButton(text="❓ Help & Commands ❓",callback_data="help_back"),
     ],
-    [   InlineKeyboardButton(text="Developer ⚡️", url="https://t.me/DeshadeethThisarana"),
+    [   InlineKeyboardButton(text="Developer ⚡️", url="https://t.me/LordVladtheImpalerTransylvania"),
     ],
     [
-        InlineKeyboardButton(text="🧰 Support Group 🧰",url="https://t.me/ShadowBotSupport"),
-        InlineKeyboardButton(text="📺 Update Channel 📺",url="https://t.me/ShadowBotUpdates"),   
+        InlineKeyboardButton(text="🧰 Support Group 🧰",url="https://t.me/DraculaXSupport"),
+        InlineKeyboardButton(text="📺 Update Channel 📺",url="https://t.me/CDraculaXUpdates"),   
     ],
     [    
-        InlineKeyboardButton(text="➕ Add Shadow to Your Group 🎨", url="t.me/Mr_Shadow_robot?startgroup=start"
+        InlineKeyboardButton(text="➕ Add Shadow to Your Group 🎨", url="t.me/DraculaXBot?startgroup=start"
         ),
     ],
 ]
@@ -109,9 +109,9 @@ HELP_STRINGS = f"""
 )
 
 DONATE_STRING = """Heya, glad to hear you want to donate! 🔥
-Shadow is hosted on one of Heroku's Servers and doesn't require any donations as of now but You can donate to the original writer's of the Base code, Đ€Ş卄ΔĐ€€Ť卄
+Shadow is hosted on one of python's Servers and doesn't require any donations as of now but You can donate to the original writer's of the Base code, Cᴏᴜɴᴛ Dʀᴀᴄᴜʟᴀ
 
-Support them [Đ€Ş卄ΔĐ€€Ť卄](t.me/DeshadeethThisarana) & [★彡ᵖⓡ𝓪Ｂ卄𝒶𝐒𝒽ค彡★](t.me/Prabha_sha)"""
+Support them [𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮](t.me/LordVladtheImpalerTransylvania) """
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -351,8 +351,8 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"😍 *Hi again! My name is {dispatcher.bot.first_name}* \n\n*As  You I'm a next generational group management bot developed by Đ€Ş卄ΔĐ€€Ť卄 Ť卄ĪŞΔŘคŇΔ.* "
-            f"\n\n🔥Join [Updates Channel](https://t.me/ShadowBotUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"😍 *Hi again! My name is {dispatcher.bot.first_name}* \n\n*As  You I'm a next generational group management bot developed by 𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮 🦇.* "
+            f"\n\n🔥Join [Updates Channel](https://t.me/DraculaXSupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\nI have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features :)"
             f"\n\n👇You Can Know More About Me By Clicking The Below Buttons👇",
@@ -384,8 +384,8 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
-            f"\nYou can  add {dispatcher.bot.first_name} 🤖 to your chats by [Clicking Here](http://t.me/Mr_Shadow_robot?startgroup=start) and selecting chat. \n"
-            f"\n\nYou can get support {dispatcher.bot.first_name} by joining [Shadow Support](https://t.me/ShadowBotSupport) also.\n"
+            f"\nYou can  add {dispatcher.bot.first_name} 🤖 to your chats by [Clicking Here](http://t.me/DraculaXBot?startgroup=start) and selecting chat. \n"
+            f"\n\nYou can get support from My Master {dispatcher.bot.first_name} [𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮](https://t.me/LordVladtheImpalerTransylvania) also.\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -405,8 +405,8 @@ def DaisyX_about_callback(update, context):
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} 🤖 is the redesigned version of Arrow for the best performance.*"
             f"\n\nBased on [Saitama](https://t.me/SaitamaRobot) + [DaisyX](https://t.me/DaisyXbot) ."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by \n[Đ€Ş卄ΔĐ€€Ť卄 Ť卄ĪŞΔŘคŇΔ](t.me/DeshadeethThisarana)"
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @ShadowBotSupport.",
+            f"\n\n{dispatcher.bot.first_name}'s source code was written by \n[𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮 🦇](t.me/LordVladtheImpalerTransylvania)"
+            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @DraculaXSupport.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -481,14 +481,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Shadow*.
-                 \nYou can find the source code by clicking below button scanning below QR code 👇👇👇👇 \n\n⚠️Don't forget to follow my owner [Deshadeeth](https://github.com/deshadeeth-thisarana/) on github⚠️""",
+            text=""" Hi..🤗 I'm *𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮*.
+                 \nYou can find the source code by clicking below button scanning below QR code 👇👇👇👇 \n\n⚠️Don't forget to follow my owner [𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮](https://t.me/LordVladtheImpalerTransylvania) on Telegram⚠️""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Source Code🈵", url="https://github.com/deshadeeth-thisarana/Shadow"),
+                    InlineKeyboardButton(text="𝗖𝗼𝘂𝗻𝘁 𝗗𝗿𝗮𝗰𝘂𝗹𝗮 🦇", url="https://t.me/LordVladtheImpalerTransylvania"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙Back", callback_data="source_back")
@@ -533,7 +533,7 @@ def get_help(update, context):
                         InlineKeyboardButton(text="Help ⛑", url="t.me/{}?start=help".format(context.bot.username),)
                     ],
                     [
-                        InlineKeyboardButton(text="🧰 Support Chat 🧰", url="https://t.me/GangOfFriends")
+                        InlineKeyboardButton(text="🧰 Support Chat 🧰", url="https://t.me/UbalataPissuda")
                     ],
                 ]
             ),
@@ -754,7 +754,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, 
             disable_web_page_preview=True)
         update.effective_message.reply_text(
-            "If you donate us it will be a large courage to us 🙏 \n @DeshadeethThisarana 🇱🇰",
+            "If you donate us it will be a large courage to us 🙏 \n @LordVladtheImpalerTransylvania",
             parse_mode=ParseMode.MARKDOWN,
             dusable_web_page_preview=True,)
 
@@ -766,7 +766,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@Shadow_Logs", "I am now online🙋‍♂️")
+            dispatcher.bot.sendMessage(f"@DraculaXLogs", "I am now online🙋‍♂️")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
