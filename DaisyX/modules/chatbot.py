@@ -157,8 +157,8 @@ Please do not come to our support chat asking why.
 We do not own the api. 
 This notice affects any bot/userbot that was using coffeehouse chatbot api.
 
-🔰 [Support](http://t.me/GangOfFriends) 
-🔔 [News](http://t.me/GangOfFriendschannel)
+🔰 [Support](http://t.me/ApitaPissuda) 
+🔔 [News](http://t.me/UbalataPissuda)
 """
 
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
