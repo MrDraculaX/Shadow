@@ -86,7 +86,7 @@ __help__ = """
  ✪ /video `<songname artist(optional)>`*:* uploads the video song in it's best quality available
  ✪ /lyrics `<song>`*:* returns the lyrics of that song.
 
-© @DeshadeethThisarana 🇱🇰
+© @LordVladtheImpalerTransylvania
 """
 
 __mod_name__ = "Music 🎧"
